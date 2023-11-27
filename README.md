@@ -6,6 +6,9 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
+![Screenshot_20231124_225249](https://github.com/Kunal645/movies_app/assets/89443555/35fb17e9-88d9-4c4a-8233-4f55b665b77c)
+
+
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
