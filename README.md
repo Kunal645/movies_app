@@ -11,6 +11,8 @@ This project is a starting point for a Flutter application.
 <img src="https://github.com/Kunal645/movies_app/assets/89443555/802f011e-996a-4bb7-ab07-d948588ab15a" alt="Screenshot" height="400">
 <img src="https://github.com/Kunal645/movies_app/assets/89443555/6d2d7358-cf84-45a0-bf3a-775cbadc8bb3" alt="Screenshot" height="400">
 <img src="https://github.com/Kunal645/movies_app/assets/89443555/0f44577d-e53b-43b7-95ca-788976b18bc2" alt="Screenshot" height="400">
+<img src="https://github.com/Kunal645/movies_app/assets/89443555/b8913b44-dc71-4d6c-86e9-519fa804f662" alt="Screenshot" height="400">
+
 
 
 
