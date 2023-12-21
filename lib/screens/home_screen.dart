@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controller/controller.dart';
@@ -50,25 +52,32 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
         backgroundColor: black,
         centerTitle: true,
         title: const Text('Movies'),
+        titleTextStyle:
+            const TextStyle(fontSize: 25, color: Colors.white, fontWeight: FontWeight.w500),
       ),
       body: DefaultTabController(
         length: 3,
         child: Column(
           children: [
-            TabBar(
-              controller: _tabController,
-              padding: const EdgeInsets.all(10),
-              labelPadding: const EdgeInsets.all(10),
-              indicator: BoxDecoration(
-                color: orange,
-                borderRadius: BorderRadius.circular(16.0),
+            SizedBox(
+              height: 75,
+              child: TabBar(
+                controller: _tabController,
+                padding: const EdgeInsets.all(10),
+                labelPadding: const EdgeInsets.all(10),
+                indicator: BoxDecoration(
+                  color: orange,
+                  borderRadius: BorderRadius.circular(16.0),
+                ),
+                unselectedLabelColor: Colors.white,
+                labelStyle: const TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
+                unselectedLabelStyle: const TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
+                tabs: const [
+                  Text("Popular"),
+                  Text("Top Rated"),
+                  Text("Favourite"),
+                ],
               ),
-              unselectedLabelColor: grey,
-              tabs: const [
-                Text("Popular"),
-                Text("Top Rated"),
-                Text("Favourite"),
-              ],
             ),
             Expanded(
               child: Obx(() {

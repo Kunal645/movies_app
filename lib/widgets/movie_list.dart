@@ -19,7 +19,7 @@ class MovieList extends StatelessWidget {
                 crossAxisCount: 2,
                 crossAxisSpacing: 0,
                 mainAxisSpacing: 0,
-                mainAxisExtent: MediaQuery.of(context).size.height / 5),
+                mainAxisExtent: MediaQuery.of(context).size.height / 3),
             itemCount: movies.results!.length,
             itemBuilder: (context, index) {
               Results results = movies.results![index];
@@ -28,25 +28,21 @@ class MovieList extends StatelessWidget {
                   decoration: BoxDecoration(
                       borderRadius: const BorderRadius.all(Radius.circular(10.0)),
                       border: Border.all(color: white)),
-                  padding: const EdgeInsets.all(10.0),
+                  padding: const EdgeInsets.all(5.0),
                   child: InkWell(
                     onTap: () {
                       Get.to(() => SecondScreen(results));
                     },
-                    child: Column(
-                      children: [
-                        results.backdropPath != null
-                            ? cachedImage(
-                                'https://image.tmdb.org/t/p/original${results.backdropPath.toString()}')
-                            : Container(),
-                        const Spacer(),
-                        Text(
-                          results.title.toString(),
-                          overflow: TextOverflow.ellipsis,
-                          style: TextStyle(color: white),
-                        ),
-                      ],
-                    ),
+                    child: results.backdropPath != null
+                        ? ClipRRect(
+                            borderRadius: const BorderRadius.all(
+                              Radius.circular(10.0),
+                            ),
+                            child: cachedImage(
+                              'https://image.tmdb.org/t/p/original${results.posterPath.toString()}',
+                            ),
+                          )
+                        : Container(),
                   ));
             },
           )

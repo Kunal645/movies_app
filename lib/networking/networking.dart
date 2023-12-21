@@ -5,7 +5,7 @@ import '../utils/flutter_toast.dart';
 
 class Networking {
   var token =
-      'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZTIzOWUwZjMzZDM4MWQ2NTdmNjI0Yzg1YjFkMGU2ZiIsInN1YiI6IjY1NjBhMjNkMmIxMTNkMDEyZDAyNjE3MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kszBZeYoZL611Lu1p0Sn9kmozE_T-K7nBwO_SQv7EUs';
+      'Your_Token_Here';
 
   get(String urls) async {
     var data;
