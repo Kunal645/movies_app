@@ -38,5 +38,7 @@ they token assign in token variable located in lib -> networking -> networking f
 <img src="https://github.com/Kunal645/movies_app/assets/89443555/210c1fb1-17ee-4a51-951d-8666bab9763a" alt="Screenshot" height="400">
 <img src="https://github.com/Kunal645/movies_app/assets/89443555/a7081b0d-6710-4e11-aa84-f608369d96de" alt="Screenshot" height="400">
 
+
+
 Feedback and Suggestions are Welcome!
 I'd love to hear your thoughts on this design. Your feedback and suggestions are highly valuable as I continue refining and improving this concept. Let me know what you think!
