@@ -29,11 +29,10 @@ When you clone this project first you need to create account on https://develope
 this web and get account token for access api and get data on they api's, 
 they token assign in token variable located in lib -> networking -> networking file
 
-
-![Screenshot_20231221-150252](https://github.com/Kunal645/movies_app/assets/89443555/210c1fb1-17ee-4a51-951d-8666bab9763a)
-![Screenshot_20231221-150242](https://github.com/Kunal645/movies_app/assets/89443555/adf8e193-bf53-48d9-997a-2c1ce92808c6)
-![Screenshot_20231221-150227](https://github.com/Kunal645/movies_app/assets/89443555/7c59f8ae-3b40-4d08-87c7-677fbd153cf9)
-![Screenshot_20231221-151210](https://github.com/Kunal645/movies_app/assets/89443555/a7081b0d-6710-4e11-aa84-f608369d96de)
+<img src="[https://github.com/Kunal645/movies_app/assets/89443555/35fb17e9-88d9-4c4a-8233-4f55b665b77c](https://github.com/Kunal645/movies_app/assets/89443555/210c1fb1-17ee-4a51-951d-8666bab9763a)" alt="Screenshot" height="400">
+<img src="[https://github.com/Kunal645/movies_app/assets/89443555/35fb17e9-88d9-4c4a-8233-4f55b665b77c](https://github.com/Kunal645/movies_app/assets/89443555/adf8e193-bf53-48d9-997a-2c1ce92808c6)" alt="Screenshot" height="400">
+<img src="[https://github.com/Kunal645/movies_app/assets/89443555/35fb17e9-88d9-4c4a-8233-4f55b665b77c](https://github.com/Kunal645/movies_app/assets/89443555/7c59f8ae-3b40-4d08-87c7-677fbd153cf9)" alt="Screenshot" height="400">
+<img src="[https://github.com/Kunal645/movies_app/assets/89443555/35fb17e9-88d9-4c4a-8233-4f55b665b77c](https://github.com/Kunal645/movies_app/assets/89443555/a7081b0d-6710-4e11-aa84-f608369d96de)" alt="Screenshot" height="400">
 
 Feedback and Suggestions are Welcome!
 I'd love to hear your thoughts on this design. Your feedback and suggestions are highly valuable as I continue refining and improving this concept. Let me know what you think!
