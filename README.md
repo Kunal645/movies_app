@@ -1,9 +1,7 @@
 # Movies App
 
 This app is cross-platform mobile application using Flutter, 
-consisting of two main screens: the home screen and the details 
-screen. The application features three distinct categories—popular 
-movies, top-rated movies, and user-selected favourites. The home 
+<br>Consisting of two main screens: the home screen and the details screen. The application features three distinct categories—popular movies, top-rated movies, and user-selected favourites. <br>The home 
 screen serves as a hub for users to navigate through these categories 
 seamlessly.
 Within each category, users can explore a curated list of movies, and 
