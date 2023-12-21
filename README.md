@@ -1,25 +1,39 @@
 # movies_app
 
-A new Flutter project.
+This app is cross-platform mobile application using Flutter, 
+consisting of two main screens: the home screen and the details 
+screen. The application features three distinct categories—popular 
+movies, top-rated movies, and user-selected favourites. The home 
+screen serves as a hub for users to navigate through these categories 
+seamlessly.
+Within each category, users can explore a curated list of movies, and 
+upon selecting a particular movie, they are directed to the details 
+screen for a comprehensive overview. The details screen provides indepth information about the selected movie, including its synopsis, 
+cast, and other relevant details. Additionally, users have the option 
+to mark movies as their favourites by clicking on the like button.
+The favourite functionality is a key feature of the application, 
+allowing users to curate a personalized list of preferred movies. 
+When a user clicks the like button on the details screen, the 
+corresponding movie is added to their favourite movie list. This 
+feature enhances the user experience by enabling them to easily 
+track and revisit their most beloved films.
+In summary, my Flutter application seamlessly integrates a userfriendly interface with a sophisticated navigation system, providing 
+users with the ability to explore popular and top-rated movies, as 
+well as curate their own list of favourite films for a personalized and 
+engaging cinematic experience.
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-<img src="https://github.com/Kunal645/movies_app/assets/89443555/35fb17e9-88d9-4c4a-8233-4f55b665b77c" alt="Screenshot" height="400">
-<img src="https://github.com/Kunal645/movies_app/assets/89443555/c671194e-d6f2-4098-b138-eca2da3d439c" alt="Screenshot" height="400">
-<img src="https://github.com/Kunal645/movies_app/assets/89443555/802f011e-996a-4bb7-ab07-d948588ab15a" alt="Screenshot" height="400">
-<img src="https://github.com/Kunal645/movies_app/assets/89443555/46e05c86-d288-46cb-b54d-8668d1a0b80a" alt="Screenshot" height="400">
-<img src="https://github.com/Kunal645/movies_app/assets/89443555/6d2d7358-cf84-45a0-bf3a-775cbadc8bb3" alt="Screenshot" height="400">
-<img src="https://github.com/Kunal645/movies_app/assets/89443555/0f44577d-e53b-43b7-95ca-788976b18bc2" alt="Screenshot" height="400">
+When you clone this project first you need to create account on https://developer.themoviedb.org/reference/intro/getting-started 
+this web and get account token for access api and get data on they api's, 
+they token assign in token variable located in lib -> networking -> networking file
 
 
+![Screenshot_20231221-150252](https://github.com/Kunal645/movies_app/assets/89443555/210c1fb1-17ee-4a51-951d-8666bab9763a)
+![Screenshot_20231221-150242](https://github.com/Kunal645/movies_app/assets/89443555/adf8e193-bf53-48d9-997a-2c1ce92808c6)
+![Screenshot_20231221-150227](https://github.com/Kunal645/movies_app/assets/89443555/7c59f8ae-3b40-4d08-87c7-677fbd153cf9)
+![Screenshot_20231221-151210](https://github.com/Kunal645/movies_app/assets/89443555/a7081b0d-6710-4e11-aa84-f608369d96de)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Feedback and Suggestions are Welcome!
+I'd love to hear your thoughts on this design. Your feedback and suggestions are highly valuable as I continue refining and improving this concept. Let me know what you think!
